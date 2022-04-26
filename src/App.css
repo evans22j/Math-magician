@@ -21,3 +21,29 @@
     grid-template-columns: repeat(4, 1fr);
   }
   
+.col {
+    border: 1px solid gray;
+    padding: 21px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .col:last-child {
+    background-color: orange;
+  }
+  
+  .row-five .col:first-child {
+    border-right: none;
+  }
+  
+  .row-five .col:nth-child(2) {
+    border-left: none;
+    text-align: left;
+    margin-left: -22px;
+  }
+  
+  .div-col {
+    background-color: rgb(235, 230, 230);
+  }
