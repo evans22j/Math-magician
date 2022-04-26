@@ -1,0 +1,23 @@
+.container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 440px;
+    margin: 40px auto;
+    border-bottom: 1px solid gray;
+  }
+  
+  .display-result {
+    background-color: #616194ef;
+    padding: 23px;
+    text-align: right;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
