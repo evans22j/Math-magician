@@ -1,11 +1,9 @@
 .container {
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     width: 40%;
     height: 440px;
     margin: 40px auto;
-    border-bottom: 1px solid gray;
   }
   
   .display-result {
@@ -15,10 +13,12 @@
     color: #fff;
     font-size: 1.5rem;
   }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+
 .col {
     border: 1px solid gray;
     padding: 21px;

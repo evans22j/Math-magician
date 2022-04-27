@@ -9,9 +9,9 @@
   - Read a random math-related quote.
   
 
-||             Math magicians  Home Page       ||
+||             Math magicians      ||
 |-|-----------------------------------|-|
-||![screenshot]()
+||![screenshot](./src/assets/magiacian.png)
 
 ## Learning objectives
 
@@ -21,13 +21,9 @@
 - Use React props.
 - Use React state.
 - Handle events in a React app.
-- Use React life cycle methods.
-- Understand the mechanism of lifting state up.
-- Use React hooks.
+- Use React life cycle methods..
 - Use React Router.
 - Use styles in a React app.
-- Write unit tests with React Testing Library.
-- Write unit tests with snapshots with Jest.
 
 ### Built With
 
@@ -60,18 +56,6 @@ $ cd Math-magician
 ```bash
 $ npm run start 
 ```
-
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
--  Compiled SASS to CSS:
-  
-```bash
-$  sass --watch src/scss/App.scss src/css/App.css
-```
-
-To watch and output to directories by using folder paths as your input and output
 
 ## Setup React Router
 
