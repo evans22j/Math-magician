@@ -11,7 +11,7 @@ function isNumber(item) {
  * Calculator data object contains:
  *   total:s      the running total
  *   next:String       the next number to be operated on with the total
- *   operation:String  +, -, etc.
+ *   operation:String  +, -,.
  */
 export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
