@@ -24,6 +24,7 @@
 - Use React life cycle methods..
 - Use React Router.
 - Use styles in a React app.
+- Understand the mechanism of lifting state up.
 
 ### Built With
 
