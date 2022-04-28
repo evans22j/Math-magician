@@ -24,11 +24,12 @@
 - Use React life cycle methods..
 - Use React Router.
 - Use styles in a React app.
+- Understand the mechanism of lifting state up.
 
 ### Built With
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3008](http://localhost:3008) to view it in the browser.
 This project is build with:
 
 The page will reload if you make edits.\
