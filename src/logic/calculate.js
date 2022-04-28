@@ -17,14 +17,14 @@ export default function calculate(obj, buttonName) {
     if (buttonName === '0' && obj.next === '0') {
       return {};
     }
-    
+
     if (obj.operation) {
       if (obj.next && obj.next !== '0') {
         return { ...obj, next: obj.next + buttonName };
       }
       return { ...obj, next: buttonName };
     }
-    
+
     if (obj.next && obj.next !== '0') {
       return {
         next: obj.next + buttonName,
@@ -64,7 +64,7 @@ export default function calculate(obj, buttonName) {
         operation: null,
       };
     }
-    
+
     return {};
   }
 
@@ -77,7 +77,6 @@ export default function calculate(obj, buttonName) {
     }
     return {};
   }
-
 
   // User pressed an operation after pressing '='
   if (!obj.next && obj.total && !obj.operation) {
